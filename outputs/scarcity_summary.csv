@@ -1,0 +1,14 @@
+,value
+credit_types_retired,309.0
+credit_types_no_supply_left,50.0
+credit_types_36m_demand_exceeds_supply,108.0
+l4l_units_retired,318.0
+l4l_units_no_supply_left,78.0
+l4l_units_36m_demand_exceeds_supply,130.0
+subregions_with_ecosystem_shortfall,34.0
+scarcity_vs_price_spearman_rho,0.121
+scarcity_vs_price_p,0.059
+scarcity_vs_price_n,246.0
+units_with_bct_retirement_no_supply_pct,21.8
+units_with_bct_retirement_some_supply_pct,36.7
+bct_share_difference_mannwhitney_p,0.0288
