@@ -3,3 +3,5 @@ data/interim/
 __pycache__/
 .DS_Store
 *.zip
+.vscode/
+data/clean/
