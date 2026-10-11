@@ -1,0 +1,11 @@
+step,rows_in,rows_out,removed,note
+Raw Credit Transactions Register,2591,2591,0,24 fields
+Remove rows with unreadable date or missing transaction type,2591,2589,2,text encoding repaired in 328 rows
+Keep market sales (transfers),2589,1295,1294,1283 retirements and 11 cancellations kept separately
+Flag (kept): sold to the BCT (credits later retired for a BCT obligation),1295,1295,0,223 rows
+Flag (kept): several credit types sold at one average price,1295,1295,0,278 rows
+Flag (kept): price above $1 but below $100 (likely lump sum),1295,1295,0,6 rows
+Exclude transfers at $1 or less and philanthropic transfers,1295,1284,11,11 at $1 or less; 4 philanthropic
+Convert prices to real terms (RBA Table G1 CPI),1284,1284,0,2026Q2 prices
+Raw Credit Supply Register,2852,2852,0,personal contact fields removed
+Credit Demand Register,0,0,0,no listings; retirements used as revealed demand
