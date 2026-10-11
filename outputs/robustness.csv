@@ -1,0 +1,8 @@
+model,n,adj_r2,log_demand,log_demand_p,log_lot,log_lot_p,sold_to_bct,sold_to_bct_p,bundled,bundled_p,scarcity_index,scarcity_index_p
+R0 Main model (M4),1284,0.722,-0.0166,0.1005,-0.0434,0.0015,0.1059,0.1715,-0.2869,0.0001,,
+R1 Exclude prices below $100,1278,0.729,-0.0219,0.0207,-0.0364,0.002,0.1012,0.1932,-0.308,0.0,,
+R2 Exclude bundled sales,1012,0.755,-0.0092,0.4278,-0.0377,0.0116,-0.0235,0.7628,,,,
+R3 Exclude sales to the BCT,1061,0.732,-0.0245,0.0209,-0.0517,0.0007,,,-0.3649,0.0,,
+R4 Weighted by credits sold,1284,0.803,0.0449,0.0387,-0.239,0.0,0.1617,0.1374,-0.4354,0.0021,,
+R5 Static scarcity index instead,1284,0.722,,,-0.0483,0.0002,0.1002,0.2065,-0.2758,0.0001,0.0086,0.3954
+R6 Median (quantile) regression,1284,,-0.0095,0.0474,-0.0333,0.0,0.1081,0.0047,-0.1342,0.0006,,

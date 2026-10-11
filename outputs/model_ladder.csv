@@ -1,0 +1,6 @@
+model,n,adj_r2,species,species_p,log_demand,log_demand_p,log_lot,log_lot_p,sold_to_bct,sold_to_bct_p,bundled,bundled_p,post_reform,post_reform_p,years,years_p
+M1 Credit class + year,1284,0.357,-1.654,0.0,,,,,,,,,,,,
+M2 + Vegetation formation,1284,0.453,,,,,,,,,,,,,,
+M3 + IBRA subregion,1284,0.711,,,,,,,,,,,,,,
+"M4 + Demand pressure, lot size, BCT, bundle",1284,0.722,,,-0.0166,0.1005,-0.0434,0.0015,0.1059,0.1715,-0.2869,0.0001,,,,
+M5 Trend + post-reform,1284,0.72,,,-0.021,0.0411,-0.046,0.0007,0.0858,0.2576,-0.2822,0.0001,-0.0875,0.2116,0.0398,0.2338
