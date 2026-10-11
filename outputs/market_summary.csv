@@ -1,0 +1,15 @@
+,value
+period,Nov 2019 to Oct 2026
+sales_lines,1284
+credits_sold,379055
+value_nominal_aud,732303702
+value_real_aud,787628594
+credit_types_sold,332
+subregions_with_sales,44
+median_real_price_ecosystem,4268
+median_real_price_species,813
+top10_types_share_of_value_pct,51.8
+types_sold_only_once_pct,40.7
+typical_max_to_min_price_same_type_and_subregion,1.7
+credits_retired,328243
+credits_retired_by_bct_pct,5.5
